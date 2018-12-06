@@ -1,0 +1,26 @@
+/* pages/persion/persion.wxss */
+page{
+     background-color: #f1f1f1;
+}
+
+.photo{
+     height: 400rpx;
+     background-color: #f60;
+     display: flex;
+     flex-direction: column;
+     
+}
+
+.photo image{
+     width: 220rpx;
+     height: 220rpx;
+     border-radius: 50%;
+     border: 10rpx solid rgba(0, 0, 0, 0.1);
+}
+
+.nickName{
+     font-size: 16px;
+     color: #333;
+}
+
+

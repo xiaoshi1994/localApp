@@ -1,0 +1,48 @@
+/* pages/main/main.wxss */
+.main_context,.top_context{
+     display: flex;
+     flex-direction: column;
+}
+
+/*顶部导航栏样式*/
+.top_context image{
+     width: 100%; 
+     height: 100%;
+}
+
+/*中间导航栏样式*/
+.center_context{
+     display: flex;
+     flex-wrap: wrap;
+}
+.center_context image{
+     width: 100rpx;
+     height: 100rpx;
+     margin-top: 20rpx;
+}
+
+.icons_context{
+     width: 33.33333%;
+     height: 200rpx;
+     display: flex;
+     flex-direction: column;
+     justify-content: ceter;
+     align-items: center;
+     border-bottom: 1rpx solid #f1f1f1;
+}
+
+
+
+
+/*商家推荐和交友论淡的模块*/
+.linkbar_context{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.linkbar_context image{
+     width: 350rpx;
+     height: 200rpx;
+     margin-right: 15rpx;
+}
